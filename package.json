@@ -1,0 +1,17 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "Projeto Cypress para testes de config de pipeline no Github Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxwell Viana QA",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.3",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
