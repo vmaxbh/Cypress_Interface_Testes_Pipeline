@@ -32,7 +32,7 @@ jobs:
           name: cypress-videos
           path: cypress/videos/*.mp4
       - name: Upload Mochawesome reports
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
             name: mochawesome-reports
             path: cypress/reports/*.html
