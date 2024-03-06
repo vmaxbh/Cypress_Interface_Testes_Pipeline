@@ -7,13 +7,13 @@ module.exports = defineConfig({
  },
  reporter: "mochawesome",
  reporterOptions: {
-    reportFilename: "[status]_[datetime]-[name]-report",
+    reportFilename: "[datetime]-[name]-report",
     timestamp: "longDate",
     reportDir: `cypress/reports`,
     quiet: false,
     overwrite: false,
     html: true,
-    json: true,
+    json: false,
  },
  chromeWebSecurity: false,
 });
