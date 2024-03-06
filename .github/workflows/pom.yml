@@ -15,11 +15,11 @@ jobs:
         browser: [chrome]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4 # Atualizado para a versão mais recente
+        uses: actions/checkout@v4
       - name: Install modules
         run: npm install
       - name: Run end-to-end black box tests 🧪
-        uses: cypress-io/github-action@v7 # Atualizado para a versão mais recente
+        uses: cypress-io/github-action@v6 # Atualizado para a versão mais recente disponível
         env:
           CYPRESS_USERNAME: ${{ secrets.CYPRESS_USERNAME }}
           CYPRESS_PASSWORD: ${{ secrets.CYPRESS_PASSWORD }}
